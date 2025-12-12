@@ -1,0 +1,17 @@
+simulation:
+  dt: 1.0
+  n_steps: 16384
+  n_ensembles: 64
+  seed: 12345
+
+scan:
+  wcoh_values: [5.0, 10.0, 20.0, 40.0, 80.0, 160.0]
+  label: soft_rudder_wcoh_scan
+
+slip:
+  law: "inv"      # "inv", "exp", "rational", or "tanh"
+  params:
+    k: 2.0
+
+output:
+  base_dir: "outputs_soft_rudder"
