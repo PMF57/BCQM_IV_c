@@ -240,10 +240,4 @@ Update the year, URL and (when available) DOI as appropriate.
 
 ## License
 
-Include your preferred licence here, for example:
-
-```text
 This code is released under the MIT License. See LICENSE for details.
-```
-
-or whichever licence you decide to use.
